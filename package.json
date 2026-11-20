@@ -33,6 +33,7 @@
     "@types/three": "^0.187.0",
     "postcss": "^8.5.32",
     "tailwindcss": "^4.3.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vercel": "^66.5.0"
   }
 }
