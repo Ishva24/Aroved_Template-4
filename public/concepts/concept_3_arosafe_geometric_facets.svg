@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" style="background:#030611">
+  <defs>
+    <radialGradient id="c3_bg" cx="72%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#08183e" />
+      <stop offset="50%" stop-color="#040b1e" />
+      <stop offset="90%" stop-color="#02040c" />
+    </radialGradient>
+    <linearGradient id="f1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18b8e0" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0f2c8f" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="f2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4f6fd6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#18b8e0" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="f3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a44c9" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#5fdcff" stop-opacity="0.06" />
+    </linearGradient>
+    <linearGradient id="blueGloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ad2ff" />
+      <stop offset="30%" stop-color="#2196f3" />
+      <stop offset="80%" stop-color="#0d47a1" />
+      <stop offset="100%" stop-color="#072b6b" />
+    </linearGradient>
+    <linearGradient id="blackGloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#525d6b" />
+      <stop offset="40%" stop-color="#2d3748" />
+      <stop offset="85%" stop-color="#1a202c" />
+      <stop offset="100%" stop-color="#0f141d" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Base Dark Background -->
+  <rect width="1920" height="1080" fill="url(#c3_bg)" />
+
+  <!-- 2. Architectural Polygonal Facets (Derived from Aroved Logo Mark) -->
+  <g id="brand-facets" transform="translate(1320, 520)">
+    <!-- Giant subtle protective diamond prism backdrop -->
+    <polygon points="-380,-340 0,-420 380,-300 460,180 120,440 -340,320" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.5" />
+    
+    <!-- Facet A -->
+    <polygon points="-380,-340 0,-420 20,-40 -240,-20" fill="url(#f1)" stroke="#18b8e0" stroke-opacity="0.25" stroke-width="1" />
+    <!-- Facet B -->
+    <polygon points="0,-420 380,-300 240,60 20,-40" fill="url(#f2)" stroke="#5fdcff" stroke-opacity="0.3" stroke-width="1.2" />
+    <!-- Facet C -->
+    <polygon points="380,-300 460,180 120,440 240,60" fill="url(#f3)" stroke="#1a44c9" stroke-opacity="0.35" stroke-width="1" />
+    <!-- Facet D -->
+    <polygon points="-380,-340 -240,-20 -340,320" fill="url(#f2)" stroke="#18b8e0" stroke-opacity="0.2" stroke-width="1" />
+    <!-- Facet E (Center base under gloves) -->
+    <polygon points="-240,-20 20,-40 240,60 120,440 -340,320" fill="url(#f1)" stroke="#4f6fd6" stroke-opacity="0.2" stroke-width="1" />
+
+    <!-- Radiant Prism Ray Lines -->
+    <line x1="0" y1="-420" x2="-240" y2="-20" stroke="#18b8e0" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 6" />
+    <line x1="20" y1="-40" x2="120" y2="440" stroke="#5fdcff" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 6" />
+    <circle cx="20" cy="-40" r="4" fill="#ffffff" filter="drop-shadow(0 0 10px #18b8e0)" />
+    <circle cx="240" cy="60" r="3" fill="#18b8e0" />
+    <circle cx="-240" cy="-20" r="3" fill="#5fdcff" />
+
+    <!-- Geometric Branding Telemetry -->
+    <g font-family="monospace" font-size="10" fill="#9be3f5" opacity="0.4" letter-spacing="2">
+      <text x="-480" y="-360">AROSAFE SHIELD GEOMETRY: FACET α-7</text>
+      <text x="-480" y="-345">PRISMATIC DEFENSE ARCHITECTURE</text>
+      <text x="180" y="460">SYMMETRIC DUAL-BARRIER VECTOR</text>
+    </g>
+  </g>
+
+  <!-- 3. Superimposed Hero Elements -->
+  
+  <!-- Top Navbar Header (Dark Obsidian Capsule) -->
+  <g id="navbar" transform="translate(320, 24)">
+    <rect width="1280" height="60" rx="30" fill="#071126" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.6))" />
+    
+    <!-- Logo -->
+    <g transform="translate(32, 14)">
+      <!-- Aroved Geometric Logo Mark -->
+      <path d="M0 16 L12 0 L24 8 L16 28 L4 24 Z" fill="#18b8e0" />
+      <path d="M12 0 L24 8 L20 22 L10 18 Z" fill="#4f6fd6" opacity="0.85" />
+      <path d="M4 24 L16 28 L10 32 L0 16 Z" fill="#0f2c8f" opacity="0.9" />
+      <text x="36" y="20" font-family="Inter, Sora, sans-serif" font-size="14" font-weight="800" fill="#ffffff" letter-spacing="2">AROSAFE</text>
+      <text x="36" y="30" font-family="Inter, Sora, sans-serif" font-size="8" font-weight="600" fill="#9be3f5" letter-spacing="3">HEALTHCARE</text>
+    </g>
+
+    <!-- Nav Links -->
+    <g transform="translate(340, 35)" font-family="Inter, sans-serif" font-size="13" font-weight="500">
+      <rect x="-16" y="-18" width="68" height="32" rx="16" fill="#ffffff" fill-opacity="0.08" />
+      <text x="0" y="2" fill="#9be3f5" font-weight="600">Home</text>
+      <text x="80" y="2" fill="#ffffff" fill-opacity="0.8">About</text>
+      <text x="150" y="2" fill="#ffffff" fill-opacity="0.8">Products ▾</text>
+      <text x="245" y="2" fill="#ffffff" fill-opacity="0.8">Expertise</text>
+      <text x="330" y="2" fill="#ffffff" fill-opacity="0.8">Why Aroved</text>
+      <text x="430" y="2" fill="#ffffff" fill-opacity="0.8">Contact</text>
+    </g>
+
+    <!-- Right Contact & Enquire Button -->
+    <g transform="translate(1040, 16)">
+      <text x="-40" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.65">+91 6366939345</text>
+      <rect x="110" y="-2" width="102" height="36" rx="18" fill="#ffffff" filter="drop-shadow(0 2px 10px rgba(255,255,255,0.25))" />
+      <text x="161" y="21" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#071631" text-anchor="middle">Enquire</text>
+    </g>
+  </g>
+
+  <!-- Left Column: Hero Content -->
+  <g id="hero-copy" transform="translate(120, 240)">
+    <!-- Subtitle pill -->
+    <g>
+      <circle cx="6" cy="6" r="3.5" fill="#18b8e0" />
+      <circle cx="6" cy="6" r="7" fill="#18b8e0" fill-opacity="0.25" />
+      <text x="24" y="10" font-family="monospace" font-size="11" font-weight="600" fill="#9be3f5" letter-spacing="3">A HEALTHCARE ENTERPRISE · AROSAFE</text>
+    </g>
+
+    <!-- Main Headline -->
+    <text x="0" y="90" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Infection control,</text>
+    <text x="0" y="165" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#9be3f5" letter-spacing="-1.5" filter="drop-shadow(0 0 30px rgba(24,184,224,0.4))">engineered</text>
+    <text x="0" y="240" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1.5">for care.</text>
+
+    <!-- Paragraph Description -->
+    <text x="0" y="305" font-family="Inter, sans-serif" font-size="16" fill="#ffffff" fill-opacity="0.75" width="480">
+      <tspan x="0" dy="0">Aroved Healthcare Pvt Ltd delivers a complete range</tspan>
+      <tspan x="0" dy="26">of infection control products under our brand AROSAFE® —</tspan>
+      <tspan x="0" dy="26">enhancing service quality for hospitals, customers and patients.</tspan>
+    </text>
+
+    <!-- CTA Buttons -->
+    <g transform="translate(0, 410)">
+      <!-- Primary Pill -->
+      <rect width="230" height="52" rx="26" fill="#ffffff" filter="drop-shadow(0 4px 16px rgba(0,0,0,0.4))" />
+      <text x="28" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#071631">Enter the product universe</text>
+      <circle cx="198" cy="26" r="12" fill="#071631" />
+      <path d="M194 26 L202 26 M198 22 L202 26 L198 30" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Secondary Pill -->
+      <rect x="250" width="160" height="52" rx="26" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1" />
+      <text x="330" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Request a quote</text>
+    </g>
+
+    <!-- Stats Bar at Bottom Left -->
+    <g transform="translate(0, 540)">
+      <g>
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">20</text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">YEARS EXPERIENCE</text>
+      </g>
+      <g transform="translate(130, 0)">
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">250<tspan fill="#18b8e0">+</tspan></text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">HOSPITALS</text>
+      </g>
+      <g transform="translate(270, 0)">
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">500<tspan fill="#18b8e0">+</tspan></text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">DISTRIBUTORS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Column: 3D Glove Duo & Orbiting Products Representation -->
+  <g id="hero-gloves-and-orbit" transform="translate(1340, 560)">
+    <!-- Orbit Ellipse Guide -->
+    <ellipse cx="0" cy="0" rx="340" ry="140" fill="none" stroke="#18b8e0" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4 6" />
+
+    <!-- Glove Duo Representation -->
+    <g id="gloves" transform="translate(0, 0)">
+      <!-- Blue Nitrile Glove (Left) -->
+      <g transform="translate(-110, -60)">
+        <path d="M-50 -140 Q-55 -210 -40 -210 Q-25 -210 -30 -140 L-30 -130 Q-20 -230 -5 -230 Q10 -230 5 -130 L5 -120 Q15 -220 30 -220 Q45 -220 40 -125 L40 -115 Q50 -195 65 -195 Q80 -195 70 -110 L65 -20 Q70 60 45 130 Q20 180 -10 180 Q-40 180 -60 130 Q-80 60 -70 -20 Q-95 -40 -95 -80 Q-95 -110 -75 -100 Q-60 -90 -50 -70 Z" fill="url(#blueGloveGrad)" filter="drop-shadow(0 20px 40px rgba(10,50,140,0.6))" />
+        <path d="M-60 130 C-40 180 20 180 45 130 L40 150 C15 200 -35 200 -55 150 Z" fill="#d8efff" opacity="0.6" />
+      </g>
+
+      <!-- Black Surgical Glove (Right) -->
+      <g transform="translate(110, -30)">
+        <path d="M-40 -130 Q-45 -200 -30 -200 Q-15 -200 -20 -130 L-20 -120 Q-10 -220 5 -220 Q20 -220 15 -120 L15 -110 Q25 -210 40 -210 Q55 -210 50 -115 L50 -105 Q60 -185 75 -185 Q90 -185 80 -100 L75 -10 Q80 70 55 140 Q30 190 0 190 Q-30 190 -50 140 Q-70 70 -60 -10 Q-85 -30 -85 -70 Q-85 -100 -65 -90 Q-50 -80 -40 -60 Z" fill="url(#blackGloveGrad)" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.8))" />
+        <path d="M-50 140 C-30 190 30 190 55 140 L50 160 C25 210 -25 210 -45 160 Z" fill="#4a5568" opacity="0.5" />
+      </g>
+    </g>
+
+    <!-- 5 Orbiting Products around the gloves -->
+    <!-- 1. Wet Wipes Box (Far Left) -->
+    <g transform="translate(-320, -50)">
+      <rect width="80" height="48" rx="8" fill="#ffffff" stroke="#18b8e0" stroke-width="1.5" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.6))" />
+      <rect x="25" y="8" width="30" height="12" rx="4" fill="#18b8e0" />
+      <text x="40" y="36" font-family="Inter, sans-serif" font-size="8" font-weight="800" fill="#071631" text-anchor="middle">WET WIPES</text>
+    </g>
+
+    <!-- 2. Bouffant Cap (Top Left) -->
+    <g transform="translate(-160, -160)">
+      <ellipse cx="40" cy="25" rx="42" ry="22" fill="#4baee0" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.5))" />
+      <ellipse cx="40" cy="30" rx="36" ry="6" fill="#18b8e0" opacity="0.8" />
+    </g>
+
+    <!-- 3. Sterilization Reel (Top Right) -->
+    <g transform="translate(180, -170)">
+      <circle cx="35" cy="35" r="32" fill="#d8eefc" stroke="#18b8e0" stroke-width="2" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.6))" />
+      <circle cx="35" cy="35" r="14" fill="#071631" />
+      <circle cx="35" cy="35" r="7" fill="#18b8e0" />
+    </g>
+
+    <!-- 4. Surgical Drape Kit (Far Right) -->
+    <g transform="translate(280, 20)">
+      <rect width="80" height="60" rx="6" fill="#1a44c9" stroke="#5fdcff" stroke-width="1.2" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.7))" />
+      <circle cx="40" cy="30" r="14" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="3 3" />
+      <text x="40" y="52" font-family="Inter, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">SURGICAL DRAPE</text>
+    </g>
+
+    <!-- 5. 3-Ply Face Mask (Bottom Center-Front) -->
+    <g transform="translate(-40, 110)">
+      <rect width="90" height="50" rx="6" fill="#5fdcff" stroke="#ffffff" stroke-width="1" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.6))" />
+      <line x1="8" y1="16" x2="82" y2="16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <line x1="8" y1="25" x2="82" y2="25" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <line x1="8" y1="34" x2="82" y2="34" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <path d="M0 12 C-15 15 -15 35 0 38" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.8" />
+      <path d="M90 12 C105 15 105 35 90 38" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.8" />
+    </g>
+  </g>
+
+</svg>

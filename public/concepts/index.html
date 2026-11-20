@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AROSAFE — 10 Dark Hero Background Concepts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #020409;
+      color: #f8fafc;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      padding: 30px 24px 80px;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      max-width: 960px;
+      margin: 0 auto 36px;
+    }
+    .badge-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #38bdf8;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 16px;
+    }
+    .badge-top span {
+      width: 6px;
+      height: 6px;
+      background: #38bdf8;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #38bdf8;
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #ffffff 30%, #93c5fd 70%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+    p.lead {
+      color: #94a3b8;
+      font-size: 16px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Collection Filter Switcher */
+    .collection-nav {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 28px 0 20px;
+    }
+    .col-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #cbd5e1;
+      padding: 10px 24px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 700;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .col-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+    }
+    .col-btn.active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #38bdf8;
+      box-shadow: 0 0 24px rgba(2, 132, 199, 0.5);
+    }
+    .col-btn .star { color: #fbbf24; }
+
+    /* Concept Pills Tab Rail */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tab-btn {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #94a3b8;
+      padding: 8px 18px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+    .tab-btn:hover {
+      color: #ffffff;
+      border-color: rgba(56, 189, 248, 0.4);
+      background: rgba(56, 189, 248, 0.1);
+    }
+    .tab-btn.active {
+      background: #38bdf8;
+      color: #040a18;
+      border-color: #38bdf8;
+      font-weight: 800;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+    }
+
+    /* Main Showcase Stage */
+    .viewer-wrap {
+      max-width: 1440px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .viewer {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(56, 189, 248, 0.2);
+      position: relative;
+    }
+    .viewer img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+
+    /* Meta Info Card below Stage */
+    .desc-card {
+      max-width: 1440px;
+      margin: 22px auto 0;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(2, 6, 23, 0.8) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 18px;
+      padding: 24px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    }
+    .desc-left { max-width: 880px; }
+    .desc-tag-wrap { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+    .pill-num {
+      background: #0284c7;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .desc-tag {
+      background: rgba(56, 189, 248, 0.12);
+      color: #7dd3fc;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 3px 12px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .desc-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .desc-text {
+      font-size: 15px;
+      color: #cbd5e1;
+      margin-top: 6px;
+      line-height: 1.6;
+    }
+    .desc-cta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .open-svg-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      padding: 12px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      transition: all 0.2s;
+    }
+    .open-svg-btn:hover {
+      background: #ffffff;
+      color: #020409;
+      border-color: #ffffff;
+    }
+
+    /* Grid Gallery View */
+    .grid-section {
+      max-width: 1440px;
+      margin: 70px auto 0;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-sub {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    .grid-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 24px;
+    }
+    .grid-item {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .grid-item:hover {
+      transform: translateY(-5px);
+      border-color: #38bdf8;
+      box-shadow: 0 16px 36px rgba(56, 189, 248, 0.15);
+    }
+    .grid-item.active {
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 2px #38bdf8;
+    }
+    .grid-item img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .grid-item-info {
+      padding: 18px 20px;
+    }
+    .grid-item-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .grid-item-sub {
+      font-size: 13px;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge-top"><span></span> AROVED HEALTHCARE • AROSAFE®</div>
+    <h1>10 Dark Hero Background Concepts</h1>
+    <p class="lead">From atmospheric bioluminescent horizons and micro-textured glove topographies to surgical shadowless luminaires and molten polymer kinetics.</p>
+  </header>
+
+  <!-- Collection Filters -->
+  <div class="collection-nav">
+    <button class="col-btn active" id="btn-outstanding" onclick="setCollection('outstanding')">
+      <span class="star">★</span> 5 New Outstanding Concepts (Recommended)
+    </button>
+    <button class="col-btn" id="btn-geometric" onclick="setCollection('geometric')">
+      5 Geometric & Structural Concepts
+    </button>
+    <button class="col-btn" id="btn-all" onclick="setCollection('all')">
+      View All 10
+    </button>
+  </div>
+
+  <!-- Tabs Rail -->
+  <div class="tabs" id="tabs"></div>
+
+  <!-- Main Stage Viewer -->
+  <div class="viewer-wrap">
+    <div class="viewer">
+      <img id="main-view" src="concept_6_bioluminescent_horizon.svg" alt="Concept Preview" />
+    </div>
+
+    <!-- Meta Description Card -->
+    <div class="desc-card">
+      <div class="desc-left">
+        <div class="desc-tag-wrap">
+          <span class="pill-num" id="card-num">OPTION 06</span>
+          <span class="desc-tag" id="card-tag">ISO 14644-1 CLASS 5 PURITY</span>
+        </div>
+        <div class="desc-title" id="card-title">Concept 6: Bioluminescent Sterile Horizon</div>
+        <div class="desc-text" id="card-desc">Deep-space clinical aurora at the golden horizon with suspended luminous sterile particulate motes, delivering dramatic cinematic depth without competing with UI text.</div>
+      </div>
+      <div class="desc-cta">
+        <a id="card-link" class="open-svg-btn" href="concept_6_bioluminescent_horizon.svg" target="_blank">Open Full SVG ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid Comparison Section -->
+  <div class="grid-section">
+    <div class="section-title" id="grid-title">5 New Outstanding Concepts</div>
+    <div class="section-sub">Click any card below to load it into the full-screen stage above.</div>
+    <div class="grid-view" id="gallery"></div>
+  </div>
+
+  <script>
+    const concepts = [
+      // === 5 NEW OUTSTANDING CONCEPTS (6-10) ===
+      {
+        id: 6,
+        cat: "outstanding",
+        file: "concept_6_bioluminescent_horizon.svg",
+        num: "OPTION 06",
+        name: "Bioluminescent Sterile Horizon",
+        tag: "CLEANROOM AURORA & PARTICULATE PURITY",
+        desc: "Deep-space clinical aurora at the golden horizon with suspended luminous sterile particulate motes, delivering dramatic cinematic depth without competing with UI text."
+      },
+      {
+        id: 7,
+        cat: "outstanding",
+        file: "concept_7_micro_tactile_topography.svg",
+        num: "OPTION 07",
+        name: "Micro-Tactile Glove Topography",
+        tag: "EN 455-2 TACTILE DEXTERITY",
+        desc: "High-magnification dark topographic elevation contour lines showcasing the physical micro-textured fingertip grip technology of AROSAFE nitrile gloves under an electron microscope."
+      },
+      {
+        id: 8,
+        cat: "outstanding",
+        file: "concept_8_surgical_shadowless_luminaire.svg",
+        num: "OPTION 08",
+        name: "Surgical Shadowless OT Luminaire",
+        tag: "160,000 LUX SHADOWLESS OT BEAM",
+        desc: "Dramatic multi-LED overhead surgical operating theatre luminaire casting volumetric light rays and caustic aperture rings down upon the surgical glove duo in high-stakes focus."
+      },
+      {
+        id: 9,
+        cat: "outstanding",
+        file: "concept_9_bio_telemetry_hud.svg",
+        num: "OPTION 09",
+        name: "Cybernetic Bio-Telemetry HUD",
+        tag: "REAL-TIME STERILITY TELEMETRY",
+        desc: "Advanced hospital ICU/cleanroom telemetry interface with live pulsing plethysmograph waveforms, ISO-5 positive overpressure gauges (+25.4 Pa), and autoclave steam curves."
+      },
+      {
+        id: 10,
+        cat: "outstanding",
+        file: "concept_10_liquid_polymer_sculpture.svg",
+        num: "OPTION 10",
+        name: "Molten Liquid Polymer Kinetics",
+        tag: "ZERO-G NBR DIPPING CHEMISTRY",
+        desc: "Sculptural metallic chrome-fluid liquid ribbons and suspended droplets swirling in zero-gravity around the gloves, representing synthetic nitrile formulation before vulcanization."
+      },
+
+      // === 5 GEOMETRIC CONCEPTS (1-5) ===
+      {
+        id: 1,
+        cat: "geometric",
+        file: "concept_1_laminar_cleanroom.svg",
+        num: "OPTION 01",
+        name: "Laminar Flow & Barrier Currents",
+        tag: "ISO 14644-1 CLASS 5",
+        desc: "Luminous, cleanroom airflow vectors and HEPA filtration streamlines representing sterile surgical manufacturing."
+      },
+      {
+        id: 2,
+        cat: "geometric",
+        file: "concept_2_molecular_polymer.svg",
+        num: "OPTION 02",
+        name: "Molecular Nitrile Polymer Matrix",
+        tag: "AQL 1.5 VIRAL BARRIER",
+        desc: "High-tech hexagonal nitrile butadiene rubber (NBR) molecular chain lattice and surgical grip micro-texture."
+      },
+      {
+        id: 3,
+        cat: "geometric",
+        file: "concept_3_arosafe_geometric_facets.svg",
+        num: "OPTION 03",
+        name: "AROSAFE Architectural Facet Shield",
+        tag: "BRAND PRISM ARCHITECTURE",
+        desc: "Large multi-layered geometric polygonal facets directly inspired by Aroved's diamond prism brand logo mark."
+      },
+      {
+        id: 4,
+        cat: "geometric",
+        file: "concept_4_surgical_ot_grid.svg",
+        num: "OPTION 04",
+        name: "Surgical OT Coordinate Matrix",
+        tag: "SURGICAL OT SUITE CALIBRATION",
+        desc: "3D perspective surgical theatre coordinate grid with precision alignment reticles and medical telemetry lines."
+      },
+      {
+        id: 5,
+        cat: "geometric",
+        file: "concept_5_antimicrobial_forcefield.svg",
+        num: "OPTION 05",
+        name: "Radial Antimicrobial Bio-Barrier",
+        tag: "ASTM F1671 BIO-DEFENSE",
+        desc: "Concentric acoustic bio-defense waves and pathogen filtration rings radiating around the central glove duo."
+      }
+    ];
+
+    let activeFilter = 'outstanding';
+    let currentId = 6;
+
+    const mainView = document.getElementById('main-view');
+    const cardNum = document.getElementById('card-num');
+    const cardTag = document.getElementById('card-tag');
+    const cardTitle = document.getElementById('card-title');
+    const cardDesc = document.getElementById('card-desc');
+    const cardLink = document.getElementById('card-link');
+    const tabsContainer = document.getElementById('tabs');
+    const galleryContainer = document.getElementById('gallery');
+    const gridTitle = document.getElementById('grid-title');
+
+    function renderUI() {
+      const filtered = concepts.filter(c => activeFilter === 'all' || c.cat === activeFilter);
+
+      // Render Tabs
+      tabsContainer.innerHTML = '';
+      filtered.forEach(item => {
+        const btn = document.createElement('button');
+        btn.className = 'tab-btn' + (item.id === currentId ? ' active' : '');
+        btn.textContent = `${item.num}: ${item.name}`;
+        btn.onclick = () => selectConcept(item.id);
+        tabsContainer.appendChild(btn);
+      });
+
+      // Render Gallery
+      galleryContainer.innerHTML = '';
+      filtered.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'grid-item' + (item.id === currentId ? ' active' : '');
+        card.innerHTML = `
+          <img src="${item.file}" alt="${item.name}" loading="lazy" />
+          <div class="grid-item-info">
+            <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+              <span style="font-size:11px; font-weight:700; color:#38bdf8; font-family:monospace;">${item.num}</span>
+              <span style="font-size:10px; color:#64748b; font-family:monospace;">${item.tag}</span>
+            </div>
+            <div class="grid-item-title">${item.name}</div>
+            <div class="grid-item-sub">${item.desc}</div>
+          </div>
+        `;
+        card.onclick = () => {
+          selectConcept(item.id);
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        };
+        galleryContainer.appendChild(card);
+      });
+    }
+
+    function selectConcept(id) {
+      currentId = id;
+      const item = concepts.find(c => c.id === id);
+      if (!item) return;
+
+      mainView.style.opacity = '0.4';
+      setTimeout(() => {
+        mainView.src = item.file;
+        mainView.style.opacity = '1';
+      }, 100);
+
+      cardNum.textContent = item.num;
+      cardTag.textContent = item.tag;
+      cardTitle.textContent = `${item.num.replace('OPTION', 'Concept')}: ${item.name}`;
+      cardDesc.textContent = item.desc;
+      cardLink.href = item.file;
+
+      renderUI();
+    }
+
+    function setCollection(cat) {
+      activeFilter = cat;
+      document.querySelectorAll('.col-btn').forEach(b => b.classList.remove('active'));
+      if (cat === 'outstanding') document.getElementById('btn-outstanding').classList.add('active');
+      if (cat === 'geometric') document.getElementById('btn-geometric').classList.add('active');
+      if (cat === 'all') document.getElementById('btn-all').classList.add('active');
+
+      if (cat === 'outstanding') {
+        gridTitle.textContent = "5 New Outstanding Concepts";
+        if (![6,7,8,9,10].includes(currentId)) currentId = 6;
+      } else if (cat === 'geometric') {
+        gridTitle.textContent = "5 Geometric & Structural Concepts";
+        if (![1,2,3,4,5].includes(currentId)) currentId = 1;
+      } else {
+        gridTitle.textContent = "All 10 Concepts";
+      }
+
+      selectConcept(currentId);
+    }
+
+    // Initialize
+    selectConcept(6);
+  </script>
+</body>
+</html>

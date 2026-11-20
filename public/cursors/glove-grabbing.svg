@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <filter id="shadowGrip" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="1" dy="1.5" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    <linearGradient id="gripGrad" x1="6" y1="6" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#55ddfc" />
+      <stop offset="40%" stop-color="#227bf0" />
+      <stop offset="100%" stop-color="#0a2872" />
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadowGrip)">
+    <!-- Closed Glove Fist -->
+    <path d="M 9 12 C 8 12 7.5 13.5 8.5 14.5 L 10.5 16.5 L 10.5 19 C 10.5 21 12 23 14 24 L 18 24 C 20 23 21.5 21 21.5 19 L 21.5 15 C 22.5 14 22 12.5 21 12 C 20 11.5 19 12 18.5 13 C 18 12 17 11.5 16 12 C 15 11.5 14 12 13.5 13 C 13 12 12 11.5 11 12 C 10 11.5 9.5 12 9 12 Z" 
+          fill="url(#gripGrad)" 
+          stroke="#ffffff" 
+          stroke-width="1.4" 
+          stroke-linejoin="round" />
+    <!-- Thumb curled over fingers -->
+    <path d="M 9.5 14 C 11 15 15 16 18 14" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+    <!-- Rolled cuff bead -->
+    <rect x="11.5" y="24" width="9" height="2.5" rx="1.2" fill="#32d8ff" stroke="#ffffff" stroke-width="1" />
+  </g>
+</svg>
+

@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" style="background:#02050f">
+  <defs>
+    <radialGradient id="c2_bg" cx="68%" cy="48%" r="70%">
+      <stop offset="0%" stop-color="#061230" />
+      <stop offset="50%" stop-color="#03081a" />
+      <stop offset="90%" stop-color="#010309" />
+    </radialGradient>
+    <linearGradient id="blueGloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ad2ff" />
+      <stop offset="30%" stop-color="#2196f3" />
+      <stop offset="80%" stop-color="#0d47a1" />
+      <stop offset="100%" stop-color="#072b6b" />
+    </linearGradient>
+    <linearGradient id="blackGloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#525d6b" />
+      <stop offset="40%" stop-color="#2d3748" />
+      <stop offset="85%" stop-color="#1a202c" />
+      <stop offset="100%" stop-color="#0f141d" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Base Dark Background -->
+  <rect width="1920" height="1080" fill="url(#c2_bg)" />
+
+  <!-- 2. Molecular Polymer & Hexagonal Barrier Matrix -->
+  <g id="molecular-matrix">
+    <polygon points="1050.0,127.2 1076.32,138.6 1076.32,161.4 1050.0,172.8 1023.68,161.4 1023.68,138.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.045" />
+    <polygon points="1050.0,184.2 1076.32,195.6 1076.32,218.4 1050.0,229.8 1023.68,218.4 1023.68,195.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+    <polygon points="1050.0,241.2 1076.32,252.6 1076.32,275.4 1050.0,286.8 1023.68,275.4 1023.68,252.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1050.0,298.2 1076.32,309.6 1076.32,332.4 1050.0,343.8 1023.68,332.4 1023.68,309.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1050.0,355.2 1076.32,366.6 1076.32,389.4 1050.0,400.8 1023.68,389.4 1023.68,366.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.063" />
+    <polygon points="1050.0,412.2 1076.32,423.6 1076.32,446.4 1050.0,457.8 1023.68,446.4 1023.68,423.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1050.0,469.2 1076.32,480.6 1076.32,503.4 1050.0,514.8 1023.68,503.4 1023.68,480.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.072" />
+    <polygon points="1050.0,526.2 1076.32,537.6 1076.32,560.4 1050.0,571.8 1023.68,560.4 1023.68,537.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1050.0,583.2 1076.32,594.6 1076.32,617.4 1050.0,628.8 1023.68,617.4 1023.68,594.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.063" />
+    <polygon points="1050.0,640.2 1076.32,651.6 1076.32,674.4 1050.0,685.8 1023.68,674.4 1023.68,651.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1050.0,697.2 1076.32,708.6 1076.32,731.4 1050.0,742.8 1023.68,731.4 1023.68,708.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1050.0,754.2 1076.32,765.6 1076.32,788.4 1050.0,799.8 1023.68,788.4 1023.68,765.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+    <polygon points="1112.51,155.7 1138.83,167.1 1138.83,189.9 1112.51,201.3 1086.19,189.9 1086.19,167.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+    <polygon points="1112.51,212.7 1138.83,224.1 1138.83,246.9 1112.51,258.3 1086.19,246.9 1086.19,224.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1112.51,269.7 1138.83,281.1 1138.83,303.9 1112.51,315.3 1086.19,303.9 1086.19,281.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1112.51,326.7 1138.83,338.1 1138.83,360.9 1112.51,372.3 1086.19,360.9 1086.19,338.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1112.51,383.7 1138.83,395.1 1138.83,417.9 1112.51,429.3 1086.19,417.9 1086.19,395.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1112.51,440.7 1138.83,452.1 1138.83,474.9 1112.51,486.3 1086.19,474.9 1086.19,452.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1112.51,497.7 1138.83,509.1 1138.83,531.9 1112.51,543.3 1086.19,531.9 1086.19,509.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.104" />
+    <polygon points="1112.51,554.7 1138.83,566.1 1138.83,588.9 1112.51,600.3 1086.19,588.9 1086.19,566.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1112.51,611.7 1138.83,623.1 1138.83,645.9 1112.51,657.3 1086.19,645.9 1086.19,623.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1112.51,668.7 1138.83,680.1 1138.83,702.9 1112.51,714.3 1086.19,702.9 1086.19,680.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1112.51,725.7 1138.83,737.1 1138.83,759.9 1112.51,771.3 1086.19,759.9 1086.19,737.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1112.51,782.7 1138.83,794.1 1138.83,816.9 1112.51,828.3 1086.19,816.9 1086.19,794.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1175.02,127.2 1201.34,138.6 1201.34,161.4 1175.02,172.8 1148.7,161.4 1148.7,138.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1175.02,184.2 1201.34,195.6 1201.34,218.4 1175.02,229.8 1148.7,218.4 1148.7,195.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1175.02,241.2 1201.34,252.6 1201.34,275.4 1175.02,286.8 1148.7,275.4 1148.7,252.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.081" />
+    <polygon points="1175.02,298.2 1201.34,309.6 1201.34,332.4 1175.02,343.8 1148.7,332.4 1148.7,309.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1175.02,355.2 1201.34,366.6 1201.34,389.4 1175.02,400.8 1148.7,389.4 1148.7,366.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <circle cx="1175.02" cy="378.0" r="2" fill="#5fdcff" fill-opacity="0.16" />
+    <polygon points="1175.02,412.2 1201.34,423.6 1201.34,446.4 1175.02,457.8 1148.7,446.4 1148.7,423.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.122" />
+    <polygon points="1175.02,469.2 1201.34,480.6 1201.34,503.4 1175.02,514.8 1148.7,503.4 1148.7,480.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.136" />
+    <polygon points="1175.02,526.2 1201.34,537.6 1201.34,560.4 1175.02,571.8 1148.7,560.4 1148.7,537.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.122" />
+    <circle cx="1175.02" cy="549.0" r="2" fill="#5fdcff" fill-opacity="0.18" />
+    <polygon points="1175.02,583.2 1201.34,594.6 1201.34,617.4 1175.02,628.8 1148.7,617.4 1148.7,594.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <polygon points="1175.02,640.2 1201.34,651.6 1201.34,674.4 1175.02,685.8 1148.7,674.4 1148.7,651.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1175.02,697.2 1201.34,708.6 1201.34,731.4 1175.02,742.8 1148.7,731.4 1148.7,708.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.081" />
+    <polygon points="1175.02,754.2 1201.34,765.6 1201.34,788.4 1175.02,799.8 1148.7,788.4 1148.7,765.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1237.53,155.7 1263.85,167.1 1263.85,189.9 1237.53,201.3 1211.21,189.9 1211.21,167.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1237.53,212.7 1263.85,224.1 1263.85,246.9 1237.53,258.3 1211.21,246.9 1211.21,224.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1237.53,269.7 1263.85,281.1 1263.85,303.9 1237.53,315.3 1211.21,303.9 1211.21,281.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1237.53,326.7 1263.85,338.1 1263.85,360.9 1237.53,372.3 1211.21,360.9 1211.21,338.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.113" />
+    <circle cx="1237.53" cy="349.5" r="2" fill="#5fdcff" fill-opacity="0.17" />
+    <polygon points="1237.53,383.7 1263.85,395.1 1263.85,417.9 1237.53,429.3 1211.21,417.9 1211.21,395.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <polygon points="1237.53,440.7 1263.85,452.1 1263.85,474.9 1237.53,486.3 1211.21,474.9 1211.21,452.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.150" />
+    <polygon points="1237.53,497.7 1263.85,509.1 1263.85,531.9 1237.53,543.3 1211.21,531.9 1211.21,509.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.168" />
+    <circle cx="1237.53" cy="520.5" r="2" fill="#5fdcff" fill-opacity="0.25" />
+    <polygon points="1237.53,554.7 1263.85,566.1 1263.85,588.9 1237.53,600.3 1211.21,588.9 1211.21,566.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.150" />
+    <polygon points="1237.53,611.7 1263.85,623.1 1263.85,645.9 1237.53,657.3 1211.21,645.9 1211.21,623.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <polygon points="1237.53,668.7 1263.85,680.1 1263.85,702.9 1237.53,714.3 1211.21,702.9 1211.21,680.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.113" />
+    <circle cx="1237.53" cy="691.5" r="2" fill="#5fdcff" fill-opacity="0.17" />
+    <polygon points="1237.53,725.7 1263.85,737.1 1263.85,759.9 1237.53,771.3 1211.21,759.9 1211.21,737.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1237.53,782.7 1263.85,794.1 1263.85,816.9 1237.53,828.3 1211.21,816.9 1211.21,794.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1300.04,127.2 1326.36,138.6 1326.36,161.4 1300.04,172.8 1273.72,161.4 1273.72,138.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.063" />
+    <polygon points="1300.04,184.2 1326.36,195.6 1326.36,218.4 1300.04,229.8 1273.72,218.4 1273.72,195.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1300.04,241.2 1326.36,252.6 1326.36,275.4 1300.04,286.8 1273.72,275.4 1273.72,252.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <circle cx="1300.04" cy="264.0" r="2" fill="#5fdcff" fill-opacity="0.16" />
+    <polygon points="1300.04,298.2 1326.36,309.6 1326.36,332.4 1300.04,343.8 1273.72,332.4 1273.72,309.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <polygon points="1300.04,355.2 1326.36,366.6 1326.36,389.4 1300.04,400.8 1273.72,389.4 1273.72,366.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.154" />
+    <polygon points="1300.04,412.2 1326.36,423.6 1326.36,446.4 1300.04,457.8 1273.72,446.4 1273.72,423.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.177" />
+    <circle cx="1300.04" cy="435.0" r="2" fill="#5fdcff" fill-opacity="0.27" />
+    <polygon points="1300.04,469.2 1326.36,480.6 1326.36,503.4 1300.04,514.8 1273.72,503.4 1273.72,480.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.200" />
+    <polygon points="1300.04,526.2 1326.36,537.6 1326.36,560.4 1300.04,571.8 1273.72,560.4 1273.72,537.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.177" />
+    <polygon points="1300.04,583.2 1326.36,594.6 1326.36,617.4 1300.04,628.8 1273.72,617.4 1273.72,594.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.154" />
+    <circle cx="1300.04" cy="606.0" r="2" fill="#5fdcff" fill-opacity="0.23" />
+    <polygon points="1300.04,640.2 1326.36,651.6 1326.36,674.4 1300.04,685.8 1273.72,674.4 1273.72,651.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <polygon points="1300.04,697.2 1326.36,708.6 1326.36,731.4 1300.04,742.8 1273.72,731.4 1273.72,708.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <polygon points="1300.04,754.2 1326.36,765.6 1326.36,788.4 1300.04,799.8 1273.72,788.4 1273.72,765.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1362.55,155.7 1388.87,167.1 1388.87,189.9 1362.55,201.3 1336.23,189.9 1336.23,167.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1362.55,212.7 1388.87,224.1 1388.87,246.9 1362.55,258.3 1336.23,246.9 1336.23,224.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1362.55,269.7 1388.87,281.1 1388.87,303.9 1362.55,315.3 1336.23,303.9 1336.23,281.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1362.55,326.7 1388.87,338.1 1388.87,360.9 1362.55,372.3 1336.23,360.9 1336.23,338.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.113" />
+    <polygon points="1362.55,383.7 1388.87,395.1 1388.87,417.9 1362.55,429.3 1336.23,417.9 1336.23,395.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <circle cx="1362.55" cy="406.5" r="2" fill="#5fdcff" fill-opacity="0.20" />
+    <polygon points="1362.55,440.7 1388.87,452.1 1388.87,474.9 1362.55,486.3 1336.23,474.9 1336.23,452.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.150" />
+    <polygon points="1362.55,497.7 1388.87,509.1 1388.87,531.9 1362.55,543.3 1336.23,531.9 1336.23,509.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.168" />
+    <polygon points="1362.55,554.7 1388.87,566.1 1388.87,588.9 1362.55,600.3 1336.23,588.9 1336.23,566.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.150" />
+    <circle cx="1362.55" cy="577.5" r="2" fill="#5fdcff" fill-opacity="0.22" />
+    <polygon points="1362.55,611.7 1388.87,623.1 1388.87,645.9 1362.55,657.3 1336.23,645.9 1336.23,623.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.131" />
+    <polygon points="1362.55,668.7 1388.87,680.1 1388.87,702.9 1362.55,714.3 1336.23,702.9 1336.23,680.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.113" />
+    <polygon points="1362.55,725.7 1388.87,737.1 1388.87,759.9 1362.55,771.3 1336.23,759.9 1336.23,737.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1362.55,782.7 1388.87,794.1 1388.87,816.9 1362.55,828.3 1336.23,816.9 1336.23,794.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1425.06,127.2 1451.3799999999999,138.6 1451.3799999999999,161.4 1425.06,172.8 1398.74,161.4 1398.74,138.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1425.06,184.2 1451.3799999999999,195.6 1451.3799999999999,218.4 1425.06,229.8 1398.74,218.4 1398.74,195.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1425.06,241.2 1451.3799999999999,252.6 1451.3799999999999,275.4 1425.06,286.8 1398.74,275.4 1398.74,252.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.081" />
+    <polygon points="1425.06,298.2 1451.3799999999999,309.6 1451.3799999999999,332.4 1425.06,343.8 1398.74,332.4 1398.74,309.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1425.06,355.2 1451.3799999999999,366.6 1451.3799999999999,389.4 1425.06,400.8 1398.74,389.4 1398.74,366.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <polygon points="1425.06,412.2 1451.3799999999999,423.6 1451.3799999999999,446.4 1425.06,457.8 1398.74,446.4 1398.74,423.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.122" />
+    <polygon points="1425.06,469.2 1451.3799999999999,480.6 1451.3799999999999,503.4 1425.06,514.8 1398.74,503.4 1398.74,480.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.136" />
+    <circle cx="1425.06" cy="492.0" r="2" fill="#5fdcff" fill-opacity="0.20" />
+    <polygon points="1425.06,526.2 1451.3799999999999,537.6 1451.3799999999999,560.4 1425.06,571.8 1398.74,560.4 1398.74,537.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.122" />
+    <polygon points="1425.06,583.2 1451.3799999999999,594.6 1451.3799999999999,617.4 1425.06,628.8 1398.74,617.4 1398.74,594.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.109" />
+    <polygon points="1425.06,640.2 1451.3799999999999,651.6 1451.3799999999999,674.4 1425.06,685.8 1398.74,674.4 1398.74,651.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1425.06,697.2 1451.3799999999999,708.6 1451.3799999999999,731.4 1425.06,742.8 1398.74,731.4 1398.74,708.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.081" />
+    <polygon points="1425.06,754.2 1451.3799999999999,765.6 1451.3799999999999,788.4 1425.06,799.8 1398.74,788.4 1398.74,765.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1487.57,155.7 1513.8899999999999,167.1 1513.8899999999999,189.9 1487.57,201.3 1461.25,189.9 1461.25,167.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+    <polygon points="1487.57,212.7 1513.8899999999999,224.1 1513.8899999999999,246.9 1487.57,258.3 1461.25,246.9 1461.25,224.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1487.57,269.7 1513.8899999999999,281.1 1513.8899999999999,303.9 1487.57,315.3 1461.25,303.9 1461.25,281.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1487.57,326.7 1513.8899999999999,338.1 1513.8899999999999,360.9 1487.57,372.3 1461.25,360.9 1461.25,338.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1487.57,383.7 1513.8899999999999,395.1 1513.8899999999999,417.9 1487.57,429.3 1461.25,417.9 1461.25,395.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1487.57,440.7 1513.8899999999999,452.1 1513.8899999999999,474.9 1487.57,486.3 1461.25,474.9 1461.25,452.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1487.57,497.7 1513.8899999999999,509.1 1513.8899999999999,531.9 1487.57,543.3 1461.25,531.9 1461.25,509.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.104" />
+    <polygon points="1487.57,554.7 1513.8899999999999,566.1 1513.8899999999999,588.9 1487.57,600.3 1461.25,588.9 1461.25,566.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.095" />
+    <polygon points="1487.57,611.7 1513.8899999999999,623.1 1513.8899999999999,645.9 1487.57,657.3 1461.25,645.9 1461.25,623.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.086" />
+    <polygon points="1487.57,668.7 1513.8899999999999,680.1 1513.8899999999999,702.9 1487.57,714.3 1461.25,702.9 1461.25,680.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.077" />
+    <polygon points="1487.57,725.7 1513.8899999999999,737.1 1513.8899999999999,759.9 1487.57,771.3 1461.25,759.9 1461.25,737.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1487.57,782.7 1513.8899999999999,794.1 1513.8899999999999,816.9 1487.57,828.3 1461.25,816.9 1461.25,794.1" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1550.08,127.2 1576.3999999999999,138.6 1576.3999999999999,161.4 1550.08,172.8 1523.76,161.4 1523.76,138.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.045" />
+    <polygon points="1550.08,184.2 1576.3999999999999,195.6 1576.3999999999999,218.4 1550.08,229.8 1523.76,218.4 1523.76,195.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+    <polygon points="1550.08,241.2 1576.3999999999999,252.6 1576.3999999999999,275.4 1550.08,286.8 1523.76,275.4 1523.76,252.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1550.08,298.2 1576.3999999999999,309.6 1576.3999999999999,332.4 1550.08,343.8 1523.76,332.4 1523.76,309.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1550.08,355.2 1576.3999999999999,366.6 1576.3999999999999,389.4 1550.08,400.8 1523.76,389.4 1523.76,366.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.063" />
+    <polygon points="1550.08,412.2 1576.3999999999999,423.6 1576.3999999999999,446.4 1550.08,457.8 1523.76,446.4 1523.76,423.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1550.08,469.2 1576.3999999999999,480.6 1576.3999999999999,503.4 1550.08,514.8 1523.76,503.4 1523.76,480.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.072" />
+    <polygon points="1550.08,526.2 1576.3999999999999,537.6 1576.3999999999999,560.4 1550.08,571.8 1523.76,560.4 1523.76,537.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.067" />
+    <polygon points="1550.08,583.2 1576.3999999999999,594.6 1576.3999999999999,617.4 1550.08,628.8 1523.76,617.4 1523.76,594.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.063" />
+    <polygon points="1550.08,640.2 1576.3999999999999,651.6 1576.3999999999999,674.4 1550.08,685.8 1523.76,674.4 1523.76,651.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.058" />
+    <polygon points="1550.08,697.2 1576.3999999999999,708.6 1576.3999999999999,731.4 1550.08,742.8 1523.76,731.4 1523.76,708.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.054" />
+    <polygon points="1550.08,754.2 1576.3999999999999,765.6 1576.3999999999999,788.4 1550.08,799.8 1523.76,788.4 1523.76,765.6" fill="none" stroke="#18b8e0" stroke-width="1" stroke-opacity="0.049" />
+
+    <!-- Crosslinked polymer chain lines -->
+    <path d="M 880 320 L 1150 280 L 1380 420 L 1620 380 L 1880 520" fill="none" stroke="#4f6fd6" stroke-width="1.8" stroke-opacity="0.35" stroke-dasharray="6 8" />
+    <path d="M 940 760 L 1180 680 L 1420 820 L 1680 750 L 1860 880" fill="none" stroke="#18b8e0" stroke-width="1.8" stroke-opacity="0.3" stroke-dasharray="6 8" />
+
+    <!-- Chemical / Polymer Formulation Telemetry -->
+    <g font-family="monospace" font-size="10" fill="#9be3f5" opacity="0.4" letter-spacing="2">
+      <text x="120" y="160">NBR POLYMER MATRIX [ACRYLONITRILE-BUTADIENE]</text>
+      <text x="120" y="175">BARRIER INTEGRITY: AQL 1.5 EN 455-1 / ASTM D6319</text>
+      <text x="1080" y="160">MOLECULAR CROSSLINKING: SULFUR/ZINC ACCELERATED</text>
+      <text x="1080" y="980">PINHOLE FREE DEFENSE · VIRAL PENETRATION PASS (ASTM F1671)</text>
+    </g>
+  </g>
+
+  <!-- 3. Superimposed Hero Elements -->
+  
+  <!-- Top Navbar Header (Dark Obsidian Capsule) -->
+  <g id="navbar" transform="translate(320, 24)">
+    <rect width="1280" height="60" rx="30" fill="#071126" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.6))" />
+    
+    <!-- Logo -->
+    <g transform="translate(32, 14)">
+      <!-- Aroved Geometric Logo Mark -->
+      <path d="M0 16 L12 0 L24 8 L16 28 L4 24 Z" fill="#18b8e0" />
+      <path d="M12 0 L24 8 L20 22 L10 18 Z" fill="#4f6fd6" opacity="0.85" />
+      <path d="M4 24 L16 28 L10 32 L0 16 Z" fill="#0f2c8f" opacity="0.9" />
+      <text x="36" y="20" font-family="Inter, Sora, sans-serif" font-size="14" font-weight="800" fill="#ffffff" letter-spacing="2">AROSAFE</text>
+      <text x="36" y="30" font-family="Inter, Sora, sans-serif" font-size="8" font-weight="600" fill="#9be3f5" letter-spacing="3">HEALTHCARE</text>
+    </g>
+
+    <!-- Nav Links -->
+    <g transform="translate(340, 35)" font-family="Inter, sans-serif" font-size="13" font-weight="500">
+      <rect x="-16" y="-18" width="68" height="32" rx="16" fill="#ffffff" fill-opacity="0.08" />
+      <text x="0" y="2" fill="#9be3f5" font-weight="600">Home</text>
+      <text x="80" y="2" fill="#ffffff" fill-opacity="0.8">About</text>
+      <text x="150" y="2" fill="#ffffff" fill-opacity="0.8">Products ▾</text>
+      <text x="245" y="2" fill="#ffffff" fill-opacity="0.8">Expertise</text>
+      <text x="330" y="2" fill="#ffffff" fill-opacity="0.8">Why Aroved</text>
+      <text x="430" y="2" fill="#ffffff" fill-opacity="0.8">Contact</text>
+    </g>
+
+    <!-- Right Contact & Enquire Button -->
+    <g transform="translate(1040, 16)">
+      <text x="-40" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.65">+91 6366939345</text>
+      <rect x="110" y="-2" width="102" height="36" rx="18" fill="#ffffff" filter="drop-shadow(0 2px 10px rgba(255,255,255,0.25))" />
+      <text x="161" y="21" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#071631" text-anchor="middle">Enquire</text>
+    </g>
+  </g>
+
+  <!-- Left Column: Hero Content -->
+  <g id="hero-copy" transform="translate(120, 240)">
+    <!-- Subtitle pill -->
+    <g>
+      <circle cx="6" cy="6" r="3.5" fill="#18b8e0" />
+      <circle cx="6" cy="6" r="7" fill="#18b8e0" fill-opacity="0.25" />
+      <text x="24" y="10" font-family="monospace" font-size="11" font-weight="600" fill="#9be3f5" letter-spacing="3">A HEALTHCARE ENTERPRISE · AROSAFE</text>
+    </g>
+
+    <!-- Main Headline -->
+    <text x="0" y="90" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Infection control,</text>
+    <text x="0" y="165" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#9be3f5" letter-spacing="-1.5" filter="drop-shadow(0 0 30px rgba(24,184,224,0.4))">engineered</text>
+    <text x="0" y="240" font-family="Sora, Inter, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1.5">for care.</text>
+
+    <!-- Paragraph Description -->
+    <text x="0" y="305" font-family="Inter, sans-serif" font-size="16" fill="#ffffff" fill-opacity="0.75" width="480">
+      <tspan x="0" dy="0">Aroved Healthcare Pvt Ltd delivers a complete range</tspan>
+      <tspan x="0" dy="26">of infection control products under our brand AROSAFE® —</tspan>
+      <tspan x="0" dy="26">enhancing service quality for hospitals, customers and patients.</tspan>
+    </text>
+
+    <!-- CTA Buttons -->
+    <g transform="translate(0, 410)">
+      <!-- Primary Pill -->
+      <rect width="230" height="52" rx="26" fill="#ffffff" filter="drop-shadow(0 4px 16px rgba(0,0,0,0.4))" />
+      <text x="28" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#071631">Enter the product universe</text>
+      <circle cx="198" cy="26" r="12" fill="#071631" />
+      <path d="M194 26 L202 26 M198 22 L202 26 L198 30" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Secondary Pill -->
+      <rect x="250" width="160" height="52" rx="26" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1" />
+      <text x="330" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Request a quote</text>
+    </g>
+
+    <!-- Stats Bar at Bottom Left -->
+    <g transform="translate(0, 540)">
+      <g>
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">20</text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">YEARS EXPERIENCE</text>
+      </g>
+      <g transform="translate(130, 0)">
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">250<tspan fill="#18b8e0">+</tspan></text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">HOSPITALS</text>
+      </g>
+      <g transform="translate(270, 0)">
+        <text x="0" y="30" font-family="Sora, Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">500<tspan fill="#18b8e0">+</tspan></text>
+        <text x="0" y="48" font-family="monospace" font-size="10" font-weight="600" fill="#ffffff" fill-opacity="0.5" letter-spacing="1">DISTRIBUTORS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Column: 3D Glove Duo & Orbiting Products Representation -->
+  <g id="hero-gloves-and-orbit" transform="translate(1340, 560)">
+    <!-- Orbit Ellipse Guide -->
+    <ellipse cx="0" cy="0" rx="340" ry="140" fill="none" stroke="#18b8e0" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4 6" />
+
+    <!-- Glove Duo Representation -->
+    <g id="gloves" transform="translate(0, 0)">
+      <!-- Blue Nitrile Glove (Left) -->
+      <g transform="translate(-110, -60)">
+        <path d="M-50 -140 Q-55 -210 -40 -210 Q-25 -210 -30 -140 L-30 -130 Q-20 -230 -5 -230 Q10 -230 5 -130 L5 -120 Q15 -220 30 -220 Q45 -220 40 -125 L40 -115 Q50 -195 65 -195 Q80 -195 70 -110 L65 -20 Q70 60 45 130 Q20 180 -10 180 Q-40 180 -60 130 Q-80 60 -70 -20 Q-95 -40 -95 -80 Q-95 -110 -75 -100 Q-60 -90 -50 -70 Z" fill="url(#blueGloveGrad)" filter="drop-shadow(0 20px 40px rgba(10,50,140,0.6))" />
+        <path d="M-60 130 C-40 180 20 180 45 130 L40 150 C15 200 -35 200 -55 150 Z" fill="#d8efff" opacity="0.6" />
+      </g>
+
+      <!-- Black Surgical Glove (Right) -->
+      <g transform="translate(110, -30)">
+        <path d="M-40 -130 Q-45 -200 -30 -200 Q-15 -200 -20 -130 L-20 -120 Q-10 -220 5 -220 Q20 -220 15 -120 L15 -110 Q25 -210 40 -210 Q55 -210 50 -115 L50 -105 Q60 -185 75 -185 Q90 -185 80 -100 L75 -10 Q80 70 55 140 Q30 190 0 190 Q-30 190 -50 140 Q-70 70 -60 -10 Q-85 -30 -85 -70 Q-85 -100 -65 -90 Q-50 -80 -40 -60 Z" fill="url(#blackGloveGrad)" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.8))" />
+        <path d="M-50 140 C-30 190 30 190 55 140 L50 160 C25 210 -25 210 -45 160 Z" fill="#4a5568" opacity="0.5" />
+      </g>
+    </g>
+
+    <!-- 5 Orbiting Products around the gloves -->
+    <!-- 1. Wet Wipes Box (Far Left) -->
+    <g transform="translate(-320, -50)">
+      <rect width="80" height="48" rx="8" fill="#ffffff" stroke="#18b8e0" stroke-width="1.5" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.6))" />
+      <rect x="25" y="8" width="30" height="12" rx="4" fill="#18b8e0" />
+      <text x="40" y="36" font-family="Inter, sans-serif" font-size="8" font-weight="800" fill="#071631" text-anchor="middle">WET WIPES</text>
+    </g>
+
+    <!-- 2. Bouffant Cap (Top Left) -->
+    <g transform="translate(-160, -160)">
+      <ellipse cx="40" cy="25" rx="42" ry="22" fill="#4baee0" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.5))" />
+      <ellipse cx="40" cy="30" rx="36" ry="6" fill="#18b8e0" opacity="0.8" />
+    </g>
+
+    <!-- 3. Sterilization Reel (Top Right) -->
+    <g transform="translate(180, -170)">
+      <circle cx="35" cy="35" r="32" fill="#d8eefc" stroke="#18b8e0" stroke-width="2" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.6))" />
+      <circle cx="35" cy="35" r="14" fill="#071631" />
+      <circle cx="35" cy="35" r="7" fill="#18b8e0" />
+    </g>
+
+    <!-- 4. Surgical Drape Kit (Far Right) -->
+    <g transform="translate(280, 20)">
+      <rect width="80" height="60" rx="6" fill="#1a44c9" stroke="#5fdcff" stroke-width="1.2" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.7))" />
+      <circle cx="40" cy="30" r="14" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="3 3" />
+      <text x="40" y="52" font-family="Inter, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">SURGICAL DRAPE</text>
+    </g>
+
+    <!-- 5. 3-Ply Face Mask (Bottom Center-Front) -->
+    <g transform="translate(-40, 110)">
+      <rect width="90" height="50" rx="6" fill="#5fdcff" stroke="#ffffff" stroke-width="1" filter="drop-shadow(0 12px 30px rgba(0,0,0,0.6))" />
+      <line x1="8" y1="16" x2="82" y2="16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <line x1="8" y1="25" x2="82" y2="25" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <line x1="8" y1="34" x2="82" y2="34" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.5" />
+      <path d="M0 12 C-15 15 -15 35 0 38" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.8" />
+      <path d="M90 12 C105 15 105 35 90 38" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.8" />
+    </g>
+  </g>
+
+</svg>
